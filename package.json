@@ -1,6 +1,6 @@
 {
   "name": "react-use-form",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Custom react hook for HTML forms",
   "main": "build/index.js",
   "scripts": {
