@@ -24,7 +24,7 @@ const MyForm = ({ initialValues }) => {
   return (
     <Form onSubmit={handleSubmit}>
       <Input InputAs="input" name="name" />
-      <Input InputAs="input" name="surname" />
+      <Input InputAs="input" name="surname" validate={isValidSurname} />
       <button type="submit">Submit</button>
     </Form>
   );
