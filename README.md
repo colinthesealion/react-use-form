@@ -2,7 +2,7 @@
 Custom react hook for HTML forms
 
 # usage
-`npm install --save react-use-form react@^16.7.0-alpha.0react-dom@^16.7.0-alpha.0`
+`npm install --save react-use-form react@^16.7.0-alpha.0 react-dom@^16.7.0-alpha.0`
 
 ```
 import { Form, Input } from 'react-use-form';
