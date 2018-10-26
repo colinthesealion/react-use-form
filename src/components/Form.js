@@ -6,9 +6,9 @@ import useForm from '../hooks/useForm';
 /**
  * A basic HTML form that uses the context API for client-side validation
  *
- * @param {Node|Node[]} children the children of this component
- * @param {Function} onSubmit a function which takes the form values and returns whether or not they are valid
- * @param {Object} props any additional props to pass to the child form component
+ * @param {Node|Node[]} [children] the children of this component
+ * @param {Function} [onSubmit] a function which takes the form values and returns whether or not they are valid
+ * @param {Object} [props] any additional props to pass to the child form component
  * @returns {ReactDOM} the rendered DOM
  */
 const Form = ({ children, onSubmit, ...props }) => {

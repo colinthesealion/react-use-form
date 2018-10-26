@@ -3,8 +3,8 @@ import { useState } from 'react';
 /**
  * A custom hook to create the form context
  *
- * @param {Object} initialValues a mapping from input name to value
- * @returns {Object} the context for the form
+ * @param {Object} [initialValues] a mapping from input name to value
+ * @returns {ReactContext} the context for the form
  */
 const useForm = (initialValues) => {
   // Create the state of the form

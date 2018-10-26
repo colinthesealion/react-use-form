@@ -8,7 +8,7 @@ import FormContext from '../context';
  * @param {ReactComponent} InputAs a react component class, function or string
  * @param {Function} [validator] a function which takes a value and returns a boolean
  * @param {String} name the name of the input
- * @param {Node|Node[]} children the children of the input
+ * @param {Node|Node[]} [children] the children of the input
  * @param {Object} [props] any additional props to pass to the child InputAs component
  *
  * @returns {ReactDOM} the rendered DOM
