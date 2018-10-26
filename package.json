@@ -1,0 +1,56 @@
+{
+  "name": "react-use-form",
+  "version": "0.0.1",
+  "description": "Custom react hook for HTML forms",
+  "main": "build/index.js",
+  "scripts": {
+    "lint": "eslint src",
+    "build": "cross-env NODE_ENV=production babel src --out-dir build",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colinthesealion/react-use-form.git"
+  },
+  "dependencies": {
+    "react": "^16.7.0-alpha.0"
+  },
+  "peerDependencies": {
+    "react-dom": "^16.7.0-alpha.0"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "form"
+  ],
+  "author": "Colin Barringer",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/colinthesealion/react-use-form/issues"
+  },
+  "homepage": "https://github.com/colinthesealion/react-use-form#readme",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^9.0.0",
+    "babel-preset-react-app": "^5.0.4",
+    "cross-env": "^5.2.0",
+    "eslint": "^5.7.0",
+    "eslint-config-react-app": "^3.0.4",
+    "eslint-plugin-flowtype": "^2.50.3",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1"
+  },
+  "jest": {
+    "testMatch": [
+      "<rootDir>/src/**/__tests__/**/*.{js,jsx,mjs}",
+      "<rootDir>/src/**/?(*.)(spec|test).{js,jsx,mjs}"
+    ]
+  }
+}
